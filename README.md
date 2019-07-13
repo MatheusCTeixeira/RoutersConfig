@@ -21,3 +21,6 @@
 
 #### Exercício 3 (Configuração de uma rede MPLS com duas VRF's distintas)
 ![Exerc3 Original](https://github.com/DarkMCT/host_images/blob/master/Topologia%20original.png)
+
+#### Exercício 3 Modificações (Movendo roteadores e adicionando novos roteadores à rede implementada no exercício 3)
+![Exerc3 Modificado](https://github.com/DarkMCT/host_images/blob/master/Modifica%C3%A7%C3%B5es%20na%20topologia%20original.png)
