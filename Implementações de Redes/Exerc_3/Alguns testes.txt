@@ -1,0 +1,8 @@
+show mpls interfaces
+show ip vrf interfaces
+show ip route vrf Cliente_A
+show ip route vrf Cliente_B
+show ip bgp vpnv4 vrf Cliente_A
+show ip bgp vpnv4 vrf Cliente_B
+ping vrf Cliente_A 10.10.10.1
+ping vrf Cliente_B 10.10.20.1

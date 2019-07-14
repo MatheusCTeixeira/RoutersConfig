@@ -1,0 +1,12 @@
+configure terminal
+    interface loopback 0
+        ip address 10.10.10.1 255.255.255.255
+        no shutdown
+
+    interface F0/0
+        ip address 10.0.1.1 255.255.255.252
+        no shutdown
+
+    router ospf 2
+        network 0.0.0.0 255.255.255.255 area 0
+end

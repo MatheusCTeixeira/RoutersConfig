@@ -1,0 +1,18 @@
+Para configurar o P2 foi necessário configurar as interfaces dos roteadores PE1 e PE2 e
+ativar o MPLS nelas. No P2 é necessário: (1) atribuir ip nas interfaces; (2) ativar o
+protocolo de roteamento OSPF; (3) ativar o MPLS nas interfaces;
+
+
+Para adicionar outro cliente na VRF "Cliente_B" em outro provider edge (PE) é preciso
+configurar a interface de P1 para conectar com o PE4. É, também, necessário configurar
+os demais PEs na rede, para declará-los como vizinhos do novo PE, o PE4. Ao conectar o
+roteador ao cliente é necessário ativar forwarding da interface a VRF "Cliente_B". Ao
+configuração do novo roteador (CE-3) é simples, basta definir o ip da interface e ativar
+o protocolo de roteamento iGP, neste caso, OSPF com ProcessID igual a 3.
+
+
+Para modificar o cliente CE2 do PE3 para o PE4 é necessário apenas ajustar a interface do PE4.
+Isto inclui: (1) atribuir endereço; (2) ativar o protocolo de roteamento; (3) habilitar
+o forwarding da VRF "Cliente_A" nessa interface. No roteador PE3 é recomendável desativar a
+interface que antes estava conectada ao cliente CE2.
+
