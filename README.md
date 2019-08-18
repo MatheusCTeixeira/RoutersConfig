@@ -19,7 +19,7 @@
 #### Exercício 2 parte C (Adicionar um roteador que não esteja na mesma MPLS que os demais)
 ![Exerc2C](https://github.com/DarkMCT/host_images/blob/master/Topologia%20(C).png)
 
-#### Exercício 3 (Configuração de uma rede MPLS com duas VRF's distintas)
+#### Exercício 3 (Configuração de uma rede MPLS com duas VR's distintas)
 ![Exerc3 Original](https://github.com/DarkMCT/host_images/blob/master/Topologia%20original.png)
 
 #### Exercício 3 Modificações (Movendo roteadores e adicionando novos roteadores à rede implementada no exercício 3)
